@@ -1,0 +1,15 @@
+{
+  "name": "typescript-services-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small TypeScript template added so `npm run build` has inputs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "type-check": "tsc --noEmit -p tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.7.2"
+  }
+}
